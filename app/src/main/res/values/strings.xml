@@ -1,8 +1,6 @@
 <resources>
     <string name="app_name">22IT343_Nguyễn Đình Anh Vũ</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="open_nav">Open Navigation Drawer</string>
     <string name="close_nav">Close Navigation Drawer</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
