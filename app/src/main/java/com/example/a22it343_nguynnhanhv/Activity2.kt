@@ -1,5 +1,6 @@
 package com.example.a22it343_nguynnhanhv
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.text.Editable
 import android.text.Html
@@ -23,6 +24,7 @@ class Activity2 : Fragment() {
         return inflater.inflate(R.layout.fragment_activity2, container, false)
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 

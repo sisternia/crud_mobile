@@ -22,7 +22,8 @@
             android:gravity="center"
             android:text="Quản lý lớp"
             android:textColor="@color/lavender"
-            android:textSize="40dp" />
+            android:textSize="40dp"
+            tools:ignore="HardcodedText,SpUsage" />
 
 
 
@@ -46,7 +47,8 @@
             android:layout_height="match_parent"
             android:layout_below="@id/searchView"
             android:layout_marginTop="10dp"
-            android:scrollbars="vertical" />
+            android:scrollbars="vertical"
+            tools:ignore="ObsoleteLayoutParam" />
 
     </LinearLayout>
     <RelativeLayout
@@ -65,6 +67,7 @@
             android:layout_marginBottom="40dp"
             android:backgroundTint="@color/lavender"
             android:src="@drawable/baseline_add_24"
-            app:tint="@color/white" />
+            app:tint="@color/white"
+            tools:ignore="ContentDescription" />
     </RelativeLayout>
 </FrameLayout>

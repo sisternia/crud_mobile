@@ -11,7 +11,8 @@
         android:layout_marginTop="44dp"
         android:text="Kiểm tra số nguyên tố"
         android:textSize="30sp"
-        android:layout_gravity="center_horizontal|top" />
+        android:layout_gravity="center_horizontal|top"
+        tools:ignore="HardcodedText" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,7 +33,9 @@
             android:layout_marginTop="24dp"
             android:focusable="true"
             android:focusableInTouchMode="true"
-            android:background="@drawable/lavender_border"/>
+            android:background="@drawable/lavender_border"
+            android:autofillHints=""
+            tools:ignore="LabelFor" />
 
         <TextView
             android:id="@+id/textView"

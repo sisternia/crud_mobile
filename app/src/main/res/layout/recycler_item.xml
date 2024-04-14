@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -29,7 +30,8 @@
                 android:textColor="@color/lavender"
                 android:textSize="16sp"
                 android:layout_marginTop="20dp"
-                android:layout_marginStart="20dp"/>
+                android:layout_marginStart="20dp"
+                tools:ignore="HardcodedText" />
 
             <TextView
                 android:id="@+id/recNum"
@@ -39,7 +41,8 @@
                 android:layout_marginTop="20dp"
                 android:text="Sỉ số"
                 android:textColor="@color/lavender"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
         </LinearLayout>
 
         <LinearLayout
@@ -56,7 +59,8 @@
                 android:text="Khoa"
                 android:textColor="@color/lavender"
                 android:gravity=""
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
 
             <TextView
                 android:id="@+id/recID"
@@ -68,7 +72,8 @@
                 android:maxLines="1"
                 android:text="ID"
                 android:textColor="@color/lavender"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
         </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

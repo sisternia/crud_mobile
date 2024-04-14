@@ -11,7 +11,8 @@
         android:layout_marginTop="44dp"
         android:text="Phương trình bậc nhất"
         android:textSize="30sp"
-        android:layout_gravity="center_horizontal|top"/>
+        android:layout_gravity="center_horizontal|top"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -19,7 +20,8 @@
         android:layout_marginTop="100dp"
         android:text="ax+b=0"
         android:textSize="30sp"
-        android:layout_gravity="center_horizontal|top"/>
+        android:layout_gravity="center_horizontal|top"
+        tools:ignore="HardcodedText" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,7 +41,9 @@
             android:focusable="true"
             android:focusableInTouchMode="true"
             android:background="@drawable/lavender_border"
-            android:textColor="@color/lavender"/>
+            android:textColor="@color/lavender"
+            tools:ignore="LabelFor"
+            android:autofillHints="" />
 
         <EditText
             android:id="@+id/editTextNumber2"
@@ -52,7 +56,8 @@
             android:focusable="true"
             android:focusableInTouchMode="true"
             android:background="@drawable/lavender_border"
-            android:textColor="@color/lavender"/>
+            android:textColor="@color/lavender"
+            tools:ignore="Autofill,LabelFor" />
 
         <TextView
             android:id="@+id/textView"
@@ -61,7 +66,8 @@
             android:text=""
             android:gravity="center"
             android:textSize="25dp"
-            android:layout_marginTop="24dp" />
+            android:layout_marginTop="24dp"
+            tools:ignore="SpUsage" />
 
     </LinearLayout>
 

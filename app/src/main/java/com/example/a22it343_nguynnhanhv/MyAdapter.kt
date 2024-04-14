@@ -1,5 +1,6 @@
 package com.example.a22it343_nguynnhanhv
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
@@ -54,6 +55,7 @@ class MyAdapter(private val context: Context,
 
     override fun getItemCount() = myDataList.size
 
+    @SuppressLint("NotifyDataSetChanged")
     fun searchDataList(searchList: List<Class>) {
         myDataList = searchList
         notifyDataSetChanged()

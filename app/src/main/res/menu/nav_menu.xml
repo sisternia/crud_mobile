@@ -10,17 +10,20 @@
         <item
             android:id="@+id/nav_class"
             android:icon="@drawable/baseline_class_24"
-            android:title="Quản lý lớp"/>
+            android:title="Quản lý lớp"
+            tools:ignore="HardcodedText" />
 
         <item
             android:id="@+id/nav_prime"
             android:icon="@drawable/baseline_calculate_24"
-            android:title="Số nguyên tố"/>
+            android:title="Số nguyên tố"
+            tools:ignore="HardcodedText" />
 
         <item
             android:id="@+id/nav_equation"
             android:icon="@drawable/baseline_calculate_24"
-            android:title="Phương trình bậc nhất"/>
+            android:title="Phương trình bậc nhất"
+            tools:ignore="HardcodedText" />
 
     </group>
 
@@ -31,7 +34,8 @@
             <item
                 android:id="@+id/nav_exit"
                 android:icon="@drawable/baseline_close_24"
-                android:title="Thoát"/>
+                android:title="Thoát"
+                tools:ignore="HardcodedText" />
         </menu>
 
     </item>

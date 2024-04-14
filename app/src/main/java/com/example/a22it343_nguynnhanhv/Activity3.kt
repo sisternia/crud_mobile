@@ -1,5 +1,6 @@
 package com.example.a22it343_nguynnhanhv
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -26,7 +27,7 @@ class Activity3 : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
         binding = FragmentActivity3Binding.inflate(inflater, container, false)
         return binding.root
@@ -63,6 +64,7 @@ class Activity3 : Fragment() {
         database = FirebaseDatabase.getInstance().getReference("/Class")
 
         database.addValueEventListener(object : ValueEventListener {
+            @SuppressLint("NotifyDataSetChanged")
             override fun onDataChange(snapshot: DataSnapshot) {
                 dataList.clear()
                 for (dataSnapshot in snapshot.children) {

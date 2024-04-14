@@ -38,7 +38,9 @@
             android:hint="Tên lớp"
             android:gravity="start|center_vertical"
             android:textColor="@color/lavender"
-            android:inputType="text"/>
+            android:inputType="text"
+            android:autofillHints=""
+            tools:ignore="HardcodedText" />
 
         <EditText
             android:layout_width="match_parent"
@@ -52,7 +54,8 @@
             android:hint="Sỉ số"
             android:gravity="start|center_vertical"
             android:textColor="@color/lavender"
-            android:inputType="number"/>
+            android:inputType="number"
+            tools:ignore="HardcodedText" />
 
         <EditText
             android:layout_width="match_parent"
@@ -66,7 +69,8 @@
             android:hint="Khoa"
             android:gravity="start|center_vertical"
             android:textColor="@color/lavender"
-            android:inputType="text"/>
+            android:inputType="text"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:layout_width="match_parent"
@@ -78,7 +82,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:backgroundTint="@color/lavender"
-            app:cornerRadius = "20dp" />
+            app:cornerRadius = "20dp"
+            tools:ignore="HardcodedText" />
 
     </LinearLayout>
 
