@@ -15,7 +15,8 @@
         android:layout_marginTop="-180dp"
         android:background="?android:attr/selectableItemBackgroundBorderless"
         android:src="@drawable/baseline_close_24"
-        android:contentDescription="TODO" />
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,7 +46,8 @@
             android:layout_gravity="center"
             android:id="@+id/detailName"
             android:textColor="@color/lavender"
-            android:textSize="18sp"/>
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:layout_width="match_parent"
