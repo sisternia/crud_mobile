@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "918442829483",
+    "project_id": "vunda-62aff",
+    "storage_bucket": "vunda-62aff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918442829483:android:491ddf639e48f9cb72b9ee",
+        "android_client_info": {
+          "package_name": "com.example.a22it343_nguynnhanhv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB57PKSZpJHfbIB3jcpkwUTEt5XDQuTk_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
